@@ -1,0 +1,13 @@
+/* In your CSS or SCSS file */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer/Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+/* Add this to your PageThree.css */
+.image-scaling {
+  transition: transform 0.3s ease-in-out;
+}

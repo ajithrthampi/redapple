@@ -1,0 +1,105 @@
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(../../assets/greenround.png);
+  background-size: cover;
+  border-radius: 50%;
+  filter: brightness(1.5) contrast(1.5);
+}
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 1rem;
+  transform-origin: 0 75px;
+}
+
+.id {
+  width: 320px;
+  height: 300px;
+  background-image: url("../../assets/Homepageimage.png");
+  background-size: cover;
+  -webkit-mask: url("../../assets/rectangle.svg");
+  -webkit-mask-size: 10%;
+}
+#set-height {
+  display: block;
+}
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+p font-family helvetica {
+  font-size: 24px;
+}
+
+.homepage-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.svg-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  mask: url(#customMask); /* Adjust the mask ID as needed */
+}
+/* .bgimage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/Homepageimage.png");
+  background-size: cover;
+}
+
+.bgimage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/rectanglesvg.svg");
+  background-size: 100%;
+  background-position: center;
+  mix-blend-mode: screen;
+} */
+.zoom-out {
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.image {
+  height: 50vh;
+  width: 20%;
+  margin: auto;
+  background-image: url("../../assets/Homepageimage.png");
+  background-position: center center;
+  background-size: cover;
+}

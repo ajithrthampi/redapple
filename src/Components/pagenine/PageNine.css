@@ -1,0 +1,55 @@
+.svgblob {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.svgblob svg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  transform-origin: 50% 50%;
+  transition: transform 0.75s 0s;
+  overflow: hidden;
+}
+
+[id^="blobmask"] rect {
+  fill: #eee;
+  width: 100%;
+  height: 100vh;
+}
+
+[id^="blobmask"] path {
+  fill: #000;
+}
+
+[id="blobmask-3"] rect {
+  fill: #fff;
+}
+
+.svgblob:hover svg {
+  transform: none;
+}
+
+.svbglob {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.launching-soon-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.svgblob-small {
+  height: 100vh;
+}
